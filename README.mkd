@@ -1,5 +1,6 @@
 # Emmet-vim
 
+## NOTE(internationalizationist): the only difference is that instead of `,` uses `h`
 
 [![Build Status](https://travis-ci.org/mattn/emmet-vim.svg?branch=master)](https://travis-ci.org/mattn/emmet-vim)
 

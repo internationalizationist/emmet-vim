@@ -97,9 +97,9 @@ endif
 function! s:install_plugin(mode, buffer)
   let buffer = a:buffer ? '<buffer>' : ''
   let items = [
-  \ {'mode': 'i', 'var': 'user_emmet_expandabbr_key', 'key': ',', 'plug': 'emmet-expand-abbr', 'func': '<c-r>=emmet#util#closePopup()<cr><c-r>=emmet#expandAbbr(0,"")<cr>'},
-  \ {'mode': 'n', 'var': 'user_emmet_expandabbr_key', 'key': ',', 'plug': 'emmet-expand-abbr', 'func': ':call emmet#expandAbbr(3,"")<cr>'},
-  \ {'mode': 'v', 'var': 'user_emmet_expandabbr_key', 'key': ',', 'plug': 'emmet-expand-abbr', 'func': ':call emmet#expandAbbr(2,"")<cr>'},
+  \ {'mode': 'i', 'var': 'user_emmet_expandabbr_key', 'key': 'h', 'plug': 'emmet-expand-abbr', 'func': '<c-r>=emmet#util#closePopup()<cr><c-r>=emmet#expandAbbr(0,"")<cr>'},
+  \ {'mode': 'n', 'var': 'user_emmet_expandabbr_key', 'key': 'h', 'plug': 'emmet-expand-abbr', 'func': ':call emmet#expandAbbr(3,"")<cr>'},
+  \ {'mode': 'v', 'var': 'user_emmet_expandabbr_key', 'key': 'h', 'plug': 'emmet-expand-abbr', 'func': ':call emmet#expandAbbr(2,"")<cr>'},
   \ {'mode': 'i', 'var': 'user_emmet_expandword_key', 'key': ';', 'plug': 'emmet-expand-word', 'func': '<c-r>=emmet#util#closePopup()<cr><c-r>=emmet#expandAbbr(1,"")<cr>'},
   \ {'mode': 'n', 'var': 'user_emmet_expandword_key', 'key': ';', 'plug': 'emmet-expand-word', 'func': ':call emmet#expandAbbr(1,"")<cr>'},
   \ {'mode': 'i', 'var': 'user_emmet_update_tag', 'key': 'u', 'plug': 'emmet-update-tag', 'func': '<c-r>=emmet#util#closePopup()<cr><c-r>=emmet#updateTag()<cr>'},
